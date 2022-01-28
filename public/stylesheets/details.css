@@ -1,0 +1,21 @@
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100vw;
+    gap: 50px;
+}
+
+ul li {
+   line-height: 1px;
+   list-style-position: outside;
+   margin-left: -22px;
+}
+
+.showtimes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+}
