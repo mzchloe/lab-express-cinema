@@ -3,7 +3,7 @@
 
 {{#each movies}} {{!-- array of the movies  --}}
 <div>
-    <img src="{{this.image}}" alt="movie cover">
+    <img src="{{this.image}}" alt="{{this.title}}">
     <p>{{this.title}}</p>
     <a href="/movie/{{this.id}}">See more</a>
 </div>
